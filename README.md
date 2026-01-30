@@ -12,8 +12,10 @@ Constructs a **3D real-space grid** using:
 - Lebedev quadrature for angular coordinates
 
 The total number of grid points is controlled by:
-- \( N_r \): number of radial points
-- \( N_{ang} \): number of angular Lebedev points
+- N_r: number of radial points
+- N_{ang}: number of angular points
+
+IMPORTANT: Uncomment the required lines for H2+ to get a non-overlapping grid for better results
 
 ---
 
@@ -45,9 +47,3 @@ Same as `NTC_general.py` but for the transcorrelated Hamiltonian
 
 ### Note:
 Larger grids were taken for more accurate results and the corresponding Hamiltonian were diagonalized using a Davidson solver (check part 5 of the article).
-
-
-
-
-## File Structure
-
