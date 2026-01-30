@@ -2,12 +2,6 @@
 
 This repository implements the electronic Hamiltonian of simple molecules using the Voronoi finite-volume discretization scheme.
 
----
-
-## An overview of the method is presented in the attached article
-
----
-
 ## File Descriptions
 
 ### `grid_generator.py`
@@ -52,11 +46,7 @@ Same as `NTC_general.py` but for the transcorrelated Hamiltonian
 ### Note:
 Larger grids were taken for more accurate results and the corresponding Hamiltonian were diagonalized using a Davidson solver (check part 5 of the article).
 
----
 
-## License
-
-MIT License
 
 
 ## File Structure
