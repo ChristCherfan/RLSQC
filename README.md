@@ -21,8 +21,7 @@ IMPORTANT: Uncomment the required lines for H2+ to get a non-overlapping grid fo
 
 ### `voronoi.py`
 
-Implements the **Voronoi finite-volume discretization** of differential operators
-as described in **Appendix A**.
+Implements the **Voronoi finite-volume discretization** of differential operators.
 
 Includes matrix representations of:
 - The Laplacian (with symmetrized transformation)
@@ -39,9 +38,9 @@ Constructs the **non-transcorrelated Hamiltonian** by assembling the matrix term
 
 ---
 
-### `general_molecule.py`
+### `TC_general.py`
 
-Same as `NTC_general.py` but for the transcorrelated Hamiltonian
+Same as `NTC_general.py` but for the **transcorrelated Hamiltonian**
 
 ---
 
