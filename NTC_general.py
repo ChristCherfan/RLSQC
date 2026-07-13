@@ -134,3 +134,11 @@ else:
 
 psi_guess /= np.linalg.norm(psi_guess)
 np.savetxt("psi_guess.txt", psi_guess, fmt="%.6f", delimiter=",", comments='')
+
+export_davidson_input(
+    grid=grid,
+    H=H,
+    psi_guess=psi_guess,
+    Ne=Ne,
+    output_dir=".",
+)
