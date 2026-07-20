@@ -3,9 +3,10 @@ from scipy import sparse as sparse
 from scipy import special as sp
 from scipy.spatial import distance
 from matplotlib import pyplot as plt
-from voronoi import voronoi_L, voronoi_D, voronoi_Dee  # type: ignore
-from grid_generator import GridSetup  # type: ignore
-from export_data_davidson import export_sparse_matrix_structure, get_psi_correlated_He, get_psi_correlated_H2
+from voronoif import voronoi_L, voronoi_D, voronoi_Dee  # type: ignore
+from grid_generatorf import GridSetup  # type: ignore
+from export_data_davidson import *
+from get_correlated_psi import *
 
 def dg1(Z,mu,r):
     return -(Z-sp.erf(mu*r))
